@@ -108,7 +108,7 @@ def courtyard():
     elif 'tower' in words:
         tower()
     else:
-        dead('A giant Golem attacks you from behind. You are dead.')
+        dead('A giant Golem attacks you from behind! You are dead.')
 
 def doors_to_courtyard(from_room):
     two_doors()
